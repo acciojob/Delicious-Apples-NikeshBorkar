@@ -1,1 +1,43 @@
 /* your code here */
+body{
+	background-color:#10E37F;
+	display:flex;
+	justify-content:center;
+}
+.product{
+	background-color:#ffffff;
+	width:50%;
+	display:flex;
+	padding:50px;
+}
+.product__photo{
+	/* position:relative; */
+	/* right:50px; */
+	border:1px solid black;
+	border-radius:5px;
+	
+}
+.photo-main{
+	background-color:#B4E93D;
+}
+.controls{
+	padding:10px;
+	border-radius:5px;
+	display:flex;
+	justify-content:space-between;
+}
+.photo-main img{
+	position:relative;
+	right:50px	
+}
+.photo-album{
+	background-color:#ffffff;
+	width:100%
+}
+.photo-album ul{
+	display:flex;
+	gap:5px;
+}
+.photo-album ul li{
+	list-style-type:none
+}

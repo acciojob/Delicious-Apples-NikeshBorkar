@@ -1,43 +1,122 @@
-/* your code here */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
 body{
 	background-color:#10E37F;
 	display:flex;
 	justify-content:center;
+	padding:50px
 }
 .product{
 	background-color:#ffffff;
-	width:50%;
+	width:70%;
 	display:flex;
 	padding:50px;
+	border-radius:5px;	
 }
 .product__photo{
-	/* position:relative; */
-	/* right:50px; */
-	border:1px solid black;
+	position:relative; 
+	right:100px;
 	border-radius:5px;
-	
+	width:80%;
+	box-shadow: -2px 2px 2px rgb(0 0 0 / 20%);
 }
 .photo-main{
 	background-color:#B4E93D;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;	
 }
 .controls{
 	padding:10px;
-	border-radius:5px;
 	display:flex;
 	justify-content:space-between;
 }
+i{
+	color:white;
+}
 .photo-main img{
 	position:relative;
-	right:50px	
+	right:50px	;
 }
+
 .photo-album{
 	background-color:#ffffff;
-	width:100%
+	width:100%;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	padding:10px;
+	display:flex;
+	justify-content:center;
 }
 .photo-album ul{
 	display:flex;
+	justify-content:center;
 	gap:5px;
 }
 .photo-album ul li{
-	list-style-type:none
+	list-style-type:none;
+	border:1px solid gray;
+	border-radius:5px;
+}
+.variant ul{
+	display: flex;
+	margin-left:60px;
+}
+.variant ul li{
+	list-style-type:none;
+	padding:5px;
+	width:100;
+}
+.variant ul li:nth-child(1){
+	border-radius:5px;
+	border:1px solid black;
+}
+.product__info{
+	position:relative;
+	display:flex;
+	flex-direction:column;
+	gap:20px;
+	right:100px;
+	padding:10px;
+}
+.title h1{
+	color:#4C4C4C;
+}
+.title span{
+	color:#BEBEBE;
+	font-size:10px;
+}
+.price{
+	color:#FE3F40;
+}
+.price span{
+	font-size:50px
+}
+.variant h3{
+	color:#A7A7A7;
+	margin-bottom:10px;
+	width:200px;
+}
+.variant img{
+	width:25px;
+}
+.description h3{
+	color:#A7A7A7;
+	margin-bottom:10px;
+}
+.description ul{
+	margin-left:70px;
+	width:300px;
+}
+button{
+	color:white;
+	font-size:25px;
+	font-weight:700;
+	background-color:#FE3F40;
+	border:none;
+	padding:10px;
+	border-radius:5px;
+	width:200px
 }
